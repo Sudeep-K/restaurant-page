@@ -1,0 +1,483 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.page-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1em;
+    margin-bottom: 13em;
+}
+
+.logo {
+    margin-right: 20em;
+}
+
+.hyperlinks {
+    margin-left: -10em;
+}
+
+.navigation {
+    margin-top: 2em;
+    display: flex;
+}
+
+.logo .logo-1 {
+    color: #8F00FF;
+    font-size: 5em;
+}
+
+.logo .logo-2 {
+    color: #B8B8B8;
+    font-size: 5em;
+}
+
+.navigation ul {
+    margin-top: 2em;
+    list-style-type: none;
+    display: flex;  
+    gap: 2em;
+    font-weight: 600;
+    font-size:1.2em;
+}
+
+.socialmedia-links {
+    margin-top: -1em;
+    margin-left: 5em;
+}
+
+.socialmedia-links ul {
+    gap: 1em;
+}
+
+.fb-icon {
+    content: url('./fb-icon.png');
+    height: 2.5em;
+}
+
+.insta-icon{
+    content: url('./insta-icon.png');
+    height: 2.5em;
+}
+
+.food-picture {
+    content : url('./biryani.png');
+    height: 500px;
+}
+
+
+.body-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.display-food-introduction {
+    
+    border-left: 0.5em solid rgb(221, 29, 29);
+    padding-left: 3em;
+}
+
+.introduction-notice {
+    margin-top: 10em;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(221, 29, 29);
+}
+
+.main-item {
+    display: flex;
+    align-items: center;
+}
+
+.main-item .main-item-title {
+    font-size: 5em;
+    font-family: serif;
+    color: rgb(221, 29, 29);
+}
+
+.main-item-price-div {
+    margin-top: -3em;
+    margin-left: -3em;
+    transform: rotate(-90deg);
+}
+
+.main-item-unit {
+    font-weight: 700;
+    font-size: 2em;
+    color: rgb(223, 223, 223);
+}
+
+.main-item-price {
+    font-size: 5em;
+    font-weight: 700;
+    color:rgb(223, 223, 223);
+}
+
+
+.main-item-explanation {
+    margin-top: 1em;
+    line-height: 1.4em;
+    font-size: 1.7em;
+    width: 20em;
+    font-weight: 500;
+    margin-bottom: 3em;
+}
+
+.order-btns {
+    display: flex;
+    gap: 3em;
+}
+
+.order-btns button {
+    height: 5em;
+    width: 15em;
+}
+
+.order-btns .button-1 {
+    border: none;
+    background-color: rgb(221, 29, 29);
+    border-radius: 2em;
+}
+
+.order-btns .button-2 {
+    border: none;
+    background-color: black;
+    border-radius: 2em;
+}
+
+.order-btns span {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.order-btns button {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+.timing {
+    margin-left: -80em;
+}
+
+.timing .opens {
+    margin-top: -1em;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.timing .open-time {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    color: rgb(163, 163, 163);
+}
+
+.page-2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20em;
+}
+
+.page-2-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-2-header .page-2-header-1 {
+    font-size: 1.9em;
+}
+
+.page-2-header .page-2-header-2 {
+    font-size: 5em;
+    font-family: serif;
+    font-weight: 600;
+    color: rgb(221, 29, 29);
+}
+
+.special-items {
+    margin-top: 10em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.spring-roll, .khana-set, .bhutan, .selroti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spring-roll-img {
+    content: url('./spring-roll.jpg');
+    height: 15em;
+}
+
+.khana-set-img {
+    content: url('./thakali-khana.jpg');
+    height: 15em;
+}
+
+.bhutan-img {
+    content: url('./bhutan.jpg');
+    height: 15em;
+}
+
+.selroti-img {
+    content: url('./sel\ roti.jpg');
+    height: 15em;
+}
+
+.stars {
+    margin: 2em 0em;
+}
+
+.spring-roll-origin, .khana-set-origin, .bhutan-origin, .selroti-origin {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.spring-roll-title, .khana-set-title, .bhutan-title, .selroti-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 1em;
+} 
+
+.add {
+    border: none;
+    background-color: rgb(221, 29, 29);
+    border-radius: 2em; 
+    height: 5em;
+    width: 17em;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+.add span {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.checked {
+    color: rgb(221, 29, 29);
+}
+
+.page-2 img {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+.page-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-page-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-page-4 .header-page-4-1 {
+    font-size: 1.9em;
+}
+
+.header-page-4 .header-page-4-2 {
+    text-align: center;
+    font-size: 5em;
+    font-family: serif;
+    font-weight: 600;
+    color: rgb(221, 29, 29);
+    width: 10em;
+}
+
+.body-page-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.row-1, .row-2 {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.handi-chicken-img {
+    content: url('./handi-chicken.png');
+    height: 80%;
+    width: 80%;
+}
+
+.paneer-naan-img {
+    content: url('./paneer-naan.jpg');
+}
+
+.thukpa-img {
+    content: url('./thukpa.jpg');
+    height: 80%;
+    width: 80%;
+
+}
+
+.crispy-momo-img {
+    content: url('./crispy-momo.jpg');
+}
+
+.kimchi-img {
+    content: url('./kimchi.jpg');
+}
+
+.mutton-taas-img {
+    content: url('./mutton-taas.png');
+}
+
+.row-1 .handi-chicken, .row-1 .paneer-naan, .row-1 .thukpa, .row-2 .mutton-taas, .row-2 .crispy-momo, .row-2 .kimchi  {
+    display: flex;
+    flex-direction: column;
+    width: 22em;
+    height: 25em;
+    padding: 2em;
+    border: 0.05em solid rgb(223, 223, 223);
+    border-radius: 1.2em;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+.love {
+    content: url('./love-icon.png');
+    height: 3em;
+}
+
+.share {
+    content: url('./share-icon.png');
+    height: 3em;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 2em;
+    margin-top: -0.5em;
+    margin-bottom: 0.2em;
+}
+
+.price-section {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-right: 8em;
+}
+
+.row-1 {
+    margin-top: 5em;
+}
+
+.all-menu {
+    margin-top: 3em;
+}
+
+.all-menu button {
+    border: none;
+    background-color: rgb(221, 29, 29);
+    border-radius: 2em;
+    height: 5em;
+    width: 15em;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+.all-menu span {
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.get-in-touch {
+    margin-top: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page5-header span {
+    font-size: 3em;
+    color: rgb(157, 153, 207);
+}
+
+.map-img {
+    content: url('./location.JPG');
+    margin-top: 8em;    
+    height: 30em;
+    border-radius: 2em;
+}
+
+.location-cord {
+    margin-top: 3em;
+    align-self: flex-start;
+    margin-left: 12em;
+}
+
+.location-cord .makemebold {
+    font-weight: 600;
+}
+
+.response-breifing {
+    margin-top: 8em;
+    display: flex;
+    gap: 12em;
+    margin-bottom: 5em;
+}
+
+.chat-response, .telephone-response, .mail-response {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15em;
+    gap: 2em;
+}
+
+.chat-explain, .telephone-explain, .mail-explain {
+    text-align: center;
+}
+
+.header-chat, .header-telephone, .header-mail {
+    color:rgb(157, 153, 207);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.telephone-no, .mail-address {
+    color:rgb(68, 58, 201);
+    font-weight: 600;
+}
