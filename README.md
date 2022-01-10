@@ -19,5 +19,5 @@ restaurant-page is a simple landing page for local business
 
 > all menu coming soon
 
-> 🌐 check out the project now @[https://sudeep-k.github.io/tictactoe/]
+> 🌐 check out the project now @[https://sudeep-k.github.io/restaurant-page/]
 
